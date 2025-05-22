@@ -165,12 +165,35 @@ body {
     margin-bottom: 2.5em;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 768px) {
+     
     .container  {
-        flex-direction: column-reverse;
-        padding: 5%;
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
         margin: 0;
-        width: auto;
-        height: auto;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
     }
 }
